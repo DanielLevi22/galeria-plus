@@ -19,3 +19,4 @@ In another terminal run the frontend server
 ```
 pnpm dev
 ```
+# galeria-plus
