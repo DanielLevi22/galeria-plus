@@ -1,9 +1,10 @@
-import Text from "../components/text";
+import Container from "../components/container";
+import { PhotosList } from "../contexts/photos/components/photo-list";
 
 export default function PageHome() {
   return (
-    <>
-      <Text variant="heading-medium">Página inicial</Text>
-    </>
+    <Container>
+      <PhotosList loading={false} photo={[{}]} />
+    </Container>
   );
 }
